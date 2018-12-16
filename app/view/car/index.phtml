@@ -1,0 +1,25 @@
+<?php include_once VIEW."_shared\header.phtml"; ?>
+<h1>Show Car List </h1>
+
+<?php
+
+
+if (array_key_exists('cars', $this->view_data)) {
+	# code...
+	$table = "<table border=1>";
+	foreach ($this->view_data['cars'] as $car) {
+		# code...
+		$table .="<tr>";
+		$car_info =explode(',', $car);
+		foreach ($car_info as $item ) {
+			# code...
+			$table .="<td>".$item.'</td>';
+		}
+		$table .="</tr>";
+
+	}
+	$table .= "</table>";
+
+echo $table;
+}
+?>

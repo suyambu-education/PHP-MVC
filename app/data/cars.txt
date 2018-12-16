@@ -1,0 +1,5 @@
+1,honda,Civic,2018,1235
+2,honda,Civic,2017,2234
+3,honda,rx100,2018,1235
+4,honda,rx350,2018,1235
+5,honda,clasic,2018,1235
